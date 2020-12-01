@@ -1,0 +1,29 @@
+/*  */
+
+.hero {
+  margin-bottom: 20%;
+}
+.icns-hero {
+  width: 250px;
+}
+.h-ones-hero {
+  font-size: 45px;
+}
+.h-threes-hero {
+  font-size: 28px;
+}
+.ps-hero {
+  font-size: 18px;
+  margin-top: 1.5%;
+  margin-bottom: 2.7%;
+}
+.icns {
+  width: 100px;
+  margin-bottom: 35px;
+}
+.h-threes {
+  margin-top: 30px 0 20px 0;
+}
+.ps {
+  margin-bottom: 7%;
+}

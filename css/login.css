@@ -1,0 +1,108 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+body {
+  background-color: #c4c0c5;
+}
+.box {
+  width: 1200px;
+  height: 600px;
+  position: relative;
+  top: 5vh;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px !important;
+  }
+}
+.officemen {
+  height: 600px;
+  margin-left: -15px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.gm-logo {
+  margin-top: 20px;
+}
+.expert {
+  color: #b07eff !important;
+}
+.number {
+  color: #d029fa !important;
+}
+.login-box {
+  /* margin: 20% 0 0 15% !important; */
+  transform: translate(30%, 0%);
+  text-align: center;
+}
+.txt-lft-email {
+  transform: translate(-180%, 0);
+}
+.txt-lft-pswrd {
+  transform: translate(-280%, 0);
+}
+.txt-login {
+  transform: translate(-280%, 15%);
+}
+.heading {
+  margin-bottom: 10%;
+}
+
+.forget-password-box {
+  transform: translate(150%, -180%);
+  width: 480px;
+}
+.forgot-password {
+  margin-bottom: 30px !important;
+}
+.txt-signup {
+  transform: translate(0, 90%);
+}
+/* .box3-links {
+  font-size: small;
+  text-decoration: none;
+  text-align: center;
+  margin-right: -3% !important;
+}
+.box3-links a {
+  text-decoration: none;
+  color: #884da0;
+} */
+footer {
+  transform: translate(-15%, -300%);
+  font-size: smaller;
+  color: #c3c3c3;
+}
+/* Signup css */
+.signup-box {
+  transform: translate(30%, -10%);
+  text-align: center;
+}
+.already-acc-box {
+  transform: translate(140%, -180%);
+  width: 480px;
+}
+.txt-lft-signup-name {
+  transform: translate(-480%, 0);
+}
+.txt-lft-signup-email {
+  transform: translate(-180%, 0);
+}
+.txt-lft-signup-password {
+  transform: translate(-280%, 0);
+}
+.txt-signup {
+  transform: translate(-230%, 15%);
+}
+.heading {
+  margin-bottom: 10%;
+}
